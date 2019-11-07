@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>HTML wireframe</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+    <nav role="navigation">Home | Sign In</nav>
+    <main role="main">
+        <header role="banner">
+            <h1>Pop Art</h1>
+        </header>
+
+        <section>
+            <form class="sign-up-form" action="#" method="post">
+                <fieldset name="userName-password">
+                  <legend>Sign Up for Pop Art</legend>
+                  <div>
+                      <label for="firstname">First Name:</label>
+                      <input placeholder="John" type="text" name="firstname" id="firstname" required/>
+                  </div>
+                  <div>
+                      <label for="lastname">Last Name:</label>
+                      <input placeholder="Doe" type="text" name="lastname" id="lastname" required/>
+                  </div>
+                  <div>
+                      <label for="e-mail">E-mail:</label>
+                      <input placeholder="name@gmail.com" type="email" name="e-mail" id="e-mail" required/>
+                  </div>
+                  <div>
+                    <label for="username">Choose a Username:</label>
+                    <input placeholder="example: johnIsCool2001" type="text" name="username" id="username" required/>
+                  </div>
+                  <div>
+                    <label for="password">Choose a Password:</label>
+                    <input placeholder= "must contain one number" type="text" name="password" id="password" required/>
+                  </div>
+                  <div>
+                      <label for="password2">Confirm Password:</label>
+                      <input placeholder= "must contain one number" type="text" name="password2" id="password2" required/>
+                    </div>
+                  <button type=submit>Log In</button>
+                  <div>
+                    <a href='/'>Already have an account?</a>
+                    <a href='/'>Proceed to Pop Art without signing in</a>
+                  </div>
+                </fieldset>
+              </form>
+        </section>
+    </main>
+    <footer role="content-info">Copyright</footer>
+</body>
+</html>
